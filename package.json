@@ -1,0 +1,23 @@
+{
+  "name": "rest-datasource",
+  "description": "",
+  "dependencies": {
+    "apollo-datasource-rest": "0.1.5",
+    "apollo-server": "2.1.0",
+    "apollo-server-testing": "^2.9.12",
+    "graphql": "^14.0.2",
+    "mocha": "^6.2.2"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js localhost 4000",
+    "test": "jest"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/graphql": "14.0.1",
+    "jest-cli": "^24.9.0",
+    "nodemon": "1.18.4"
+  }
+}
